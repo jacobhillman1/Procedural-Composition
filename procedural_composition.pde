@@ -29,7 +29,6 @@ void draw() {
   boolean firstChord = true;
   Chord currentChord = chords[0];
   currentChord.printRoot();
-  //currentChord.play();
   firstChord = false;
 
   for(float i = 0.0; i < 100; i++) {
