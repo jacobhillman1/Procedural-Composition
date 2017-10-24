@@ -20,8 +20,6 @@ void setup() {
   // set up each chord, in C Major for now
   initializeChordsForCMajorScale(chords);
   addVoiceLeading(chords);
-  
-  //chords[0].playMajorChord();
 
 }
 
@@ -40,9 +38,7 @@ void draw() {
     out.pauseNotes();
 
     currentChord.play(i);
-    //for(int j = 0; j < 4; j++) {
-    //  out.playNote(i + (0.25 * j), .25, "C2");
-    //}
+
   }
   out.resumeNotes();
   
