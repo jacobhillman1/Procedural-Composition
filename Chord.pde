@@ -55,10 +55,6 @@ class Chord {
   }
   
   void play(float time) {
-    //for (int i = 0; i < 12; i++) {
-    //  if(noteStack[i]) {
-        out.playNote(time / 2, .5, allNotes[rootIndex]);
-    //  }
-    //}
+      out.playNote(time / 2, .5, allNotes[rootIndex]);
   }
 }
